@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <locale>
 using namespace std;
 
