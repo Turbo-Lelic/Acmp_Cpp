@@ -1,16 +1,10 @@
 #include <iostream>
-#include <stdio.h>
-#include <locale>
+
 using namespace std;
 
-int main(void)
-{
-    setlocale(LC_ALL, "Russian");
+int main(void) {
 
-    int n = 0;
+    int n; cin >> n; cout << n;
 
-    cin >> n;
-    cout << n;
-    
     return 0;
 }

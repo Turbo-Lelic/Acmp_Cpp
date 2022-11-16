@@ -1,16 +1,9 @@
 #include <iostream>
-#include <locale>
+
 using namespace std;
 
-int main(void)
-{
-    setlocale(LC_ALL, "Russian");
-
-    int x = 0;
-    int y = 0;
-
-    cin >> x >> y;
-    cout << x + y;
+int main() {
+    int x, y; cin >> x >> y; cout << x + y;
     
     return 0;
 }
